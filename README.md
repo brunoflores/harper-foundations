@@ -69,3 +69,13 @@ x^2 +  2x   + 1
 7^2 + (2*7) + 1 <-- substitute 7 for x
 64
 ```
+
+#### Syntactic categories
+
+*Sorts* divide ASTs into *syntactic categories*.
+
+**Example:** familiar programming languages have a syntactic distinction between
+_expressions and commands_.
+
+Variables in ASTs range over sorts in the sense that only ASTs of the specified
+sort of the variable can be plugged in for that variable.
