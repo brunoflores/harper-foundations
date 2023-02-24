@@ -61,3 +61,13 @@ A *variable* is an *unknown* object drawn from some domain.
 The unknown can become known by *substitution* of a particular object for all
 occurrences of a variable in a formula, thereby specializing a general formula
 to a particular instance.
+
+**Example**
+
+In school algebra variables range over real numbers:
+
+```
+x^2 +  2x   + 1
+7^2 + (2*7) + 1 <-- substitute 7 for x
+64
+```
