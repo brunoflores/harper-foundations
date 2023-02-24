@@ -18,3 +18,46 @@ specifically how they are composed from other phrases.
 
 At this level, a phrase is a *tree* whose nodes are operators that combine
 several phrases to form another phrase.
+
+```
+AST -> nodes are operators.
+```
+
+The *binding structure* of syntax is concerned with the introduction and use of
+identifiers: how they are declared, and how declared identifiers can be used.
+
+```
+ABT -> identifiers, binding and scope.
+```
+
+Functions and relations on ABTs give precise meaning to the informal ideas of
+binding and scope of identifiers.
+
+**Our focus: finite trees augmented with a means of expressing the binding and
+scope of identifiers within a syntax tree.**
+
+## A "piece of syntax"
+
+Define a "piece of syntax" in two stages: ASTs then ABTs.
+
+### Abstract Syntax Trees
+
+An ordered tree whose leaves are *variables*, and whose interior nodes are
+*operators* whose *arguments* are its children.
+
+#### Sorts, operators and arity
+
+ASTs are classified into *sorts* corresponding to different forms of syntax.
+
+A *variable* stands for an unspecified piece of syntax of a specified sort.
+
+ASTs can be combined by an *operator*, which has an *arity* specifying the sort
+of the operator and the number and sorts of its arguments.
+
+#### Variables
+
+A *variable* is an *unknown* object drawn from some domain.
+
+The unknown can become known by *substitution* of a particular object for all
+occurrences of a variable in a formula, thereby specializing a general formula
+to a particular instance.
