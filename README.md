@@ -75,7 +75,7 @@ x^2 +  2x   + 1
 *Sorts* divide ASTs into *syntactic categories*.
 
 **Example:** familiar programming languages have a syntactic distinction between
-_expressions and commands_.
+*expressions and commands*.
 
-Variables in ASTs range over sorts in the sense that only ASTs of the specified
+**Variables in ASTs range over sorts** in the sense that only ASTs of the specified
 sort of the variable can be plugged in for that variable.
