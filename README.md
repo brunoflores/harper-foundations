@@ -129,4 +129,8 @@ Fix a set $\mathcal{S}$ of sorts and an arity-indexed family $\mathcal{O}$ of
 sets of operators of each arity. Let
 $\mathcal{X} = \\{ \mathcal{X}_s \\} _{s \in S}$ be a sort-indexed
 family of disjoint finite sets $\mathcal{X}_s$ of *variables* $\mathcal{x}$
-of sort $\mathcal{s}$.
+of sort $\mathcal{s}$. When $\mathcal{X}$ is clear from context, we say that a
+variable $\mathcal{x}$ is of sort $\mathcal{s}$ if $\mathcal{x \in X_s}$, and we
+say that $\mathcal{x}$ is $\mathit{fresh for \mathcal{X}}$, or just *fresh* when
+$\mathcal{X}$ is understood, if $\mathcal{x \notin X_s}$ for any sort
+$\mathcal{s}$.
