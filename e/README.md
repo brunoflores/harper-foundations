@@ -49,4 +49,6 @@ to say that the variable $\mathcal{x}$ is *fresh* for $\Gamma$.
 
 The rules defining the statics of `E` are as follows,
 
-$$\frac{}{\Gamma, \mathcal{x} : \mathcal{t} \vdash \mathcal{x} : \mathcal{t}}$$
+$$
+\frac{}{\Gamma, \mathcal{x} : \mathcal{t} \vdash \mathcal{x} : \mathcal{t}}
+$$
