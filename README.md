@@ -168,7 +168,8 @@ $\mathcal{a}$.
 
 *Abstract binding trees* enrich ASTs with the means to introduce new variables
 and symbols, called a *binding*, with a specified range of significance, called
-its *scope*.
+its *scope*. ABTs generalize ASTs by allowing an operator to bind any finite
+number (possibly zero) of variables in each argument.
 
 The **scope** of a binding is an ABT within which the bound identifier can be
 used, either as a placeholder or as the index of some operator.
@@ -182,3 +183,7 @@ a reference, or abstract pointer, to its binding**.
   unique binding with each use of an identifier.
 * The names of bound variables are immaterial insofar as they determine the same
   binding.
+
+An argument to an operator is called an *abstractor* and has the form,
+
+$$\mathcal{x_1, \cdots, x_k.a}$$.
