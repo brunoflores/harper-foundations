@@ -194,3 +194,5 @@ $\mathtt{let\ \mathcal{x}\ be\ \mathcal{a_1}\ in\ \mathcal{a_2}}$
 has the form $\mathtt{let(\mathcal{a_1};\mathcal{x.a_2})}$, which more clearly
 specifies that the variable $\mathcal{x}$ is bound within $\mathcal{a_2}$, and
 not within $\mathcal{a_1}$.
+
+We often write $\vec{x}$
