@@ -186,4 +186,4 @@ a reference, or abstract pointer, to its binding**.
 
 An argument to an operator is called an *abstractor* and has the form,
 
-$$\mathcal{x_1, \cdots, x_k.a}$$.
+$$\mathcal{x_1, \cdots, x_k.a}.$$
