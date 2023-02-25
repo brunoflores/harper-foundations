@@ -126,6 +126,7 @@ $\mathit{o}$ has sort $\mathit{s}$ and has $\mathit{n}$ arguments of sorts
 $\mathit{s_1, \cdots, s_n}$.
 
 Fix a set $\mathcal{S}$ of sorts and an arity-indexed family $\mathcal{O}$ of
-sets of operators of each arity. Let $\mathcal{X} = \\{ \mathcal{X}_s \\}_{s
-\in \mathcal{S}}$ be a sort-indexed family of disjoint finite sets
-$\mathcal{X}_s$ of *variables* $\mathcal{x}$ of sort $\mathcal{s}$.
+sets of operators of each arity. Let
+$\mathcal{X} = \\{ \mathcal{X}_s \\}_{s \in \mathcal{S}}$ be a sort-indexed
+family of disjoint finite sets $\mathcal{X}_s$ of *variables* $\mathcal{x}$
+of sort $\mathcal{s}$.
