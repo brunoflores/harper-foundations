@@ -177,3 +177,8 @@ Different subtrees may introduce identifiers with disjoint scopes.
 
 The crucial principle is that **any use of an identifier should be understood as
 a reference, or abstract pointer, to its binding**.
+
+* The choice of identifiers is immaterial, so long as we can always associate a
+  unique binding with each use of an identifier.
+* The names of bound variables are immaterial insofar as they determine the same
+  binding.
