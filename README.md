@@ -195,4 +195,7 @@ has the form $\mathtt{let(\mathcal{a_1};\mathcal{x.a_2})}$, which more clearly
 specifies that the variable $\mathcal{x}$ is bound within $\mathcal{a_2}$, and
 not within $\mathcal{a_1}$.
 
-We often write $\vec{x}$
+We often write $\vec{x}$ to stand for a finite sequence
+$\mathcal{x_1, \cdots, x_n}$
+of distinct variables and write $\vec{x}.\mathcal{a}$ to mean
+$\mathcal{x_1, \cdots, x_n.a}$.
