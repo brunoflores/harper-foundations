@@ -143,4 +143,8 @@ of ASTs of sort $\mathcal{s}$ is the smallest family satisfying the following
 conditions:
 
 1. A variable of sort $\mathcal{s}$ is an AST of sort $\mathcal{s}$: if
-   $\mathcal{x \in X_s}$, then $\mathcal{x} \in \mathcal{A}[\mathcal{X}]_s$
+   $\mathcal{x \in X_s}$, then $\mathcal{x} \in \mathcal{A}[\mathcal{X}]_s$.
+2. Operators combine ASTs: if $\mathcal{o}$ is an operator or arity
+   $(s_1, \cdots, s_n)s$, and if
+   $\mathcal{a_1} \in \mathcal{A}[\mathcal{X}]_s_1, \cdots, \mathcal{a_n} \in \mathcal{A}[\mathcal{X}]_s_n$,
+   then $\mathcal{o(a_1; \cdots; a_n)} \in \mathcal{A}[\mathcal{X}]_s$.
