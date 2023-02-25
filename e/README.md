@@ -45,4 +45,5 @@ $$\vec{x}\ |\ \Gamma \vdash \mathcal{e} : \mathcal{t}$$
 
 where $\vec{x}$ is a finite set of variables, and $\Gamma$ is a *typing context*
 consisting of hypotheses of the form $\mathcal{x} : \mathcal{t}$, one for each
-$\mathcal{x} \in \vec{x}$.
+$\mathcal{x} \in \vec{x}$. We write $\mathcal{x} \notin \mathcal{dom(\Gamma)}$
+to say that the variable $\mathcal{x}$ is *fresh* for $\Gamma$.
