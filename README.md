@@ -92,7 +92,7 @@ these operators:
    each with two arguments of sort $\mathtt{Exp}$
 
 The expression $\mathtt{2 + (3 \times \mathit{x})}$ would be represented by the
-AST of sort $mathtt{Exp}$, under the assumption that $\mathit{x}$ is also of
+AST of sort $\mathtt{Exp}$, under the assumption that $\mathit{x}$ is also of
 this sort:
 
 $$\mathtt{plus(num[2];times(num[3];\mathit{x}))}$$
