@@ -102,7 +102,7 @@ $$\mathtt{plus(num[2];times(num[3];\mathit{x}))}$$
 The tree structure of ASTs provides a very useful principle of reasoning, called
 *structural induction*.
 
-To prove that some property $\mathbb{P}(\mathit{a})$ holds for all ASTs
+To prove that some property $\mathit{P(a)}$ holds for all ASTs
 $\mathit{a}$ of a given sort, it is enough to consider all the ways in which
 $\mathit{a}$ can be generated and show that the property holds in each case
 under the assumption that it holds for its constituent ASTs (if any).
