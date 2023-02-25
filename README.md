@@ -90,3 +90,5 @@ these operators:
    $\mathit{n} \in \mathbb{N}$
 2. Two operators, $\mathtt{plus}$ and $\mathtt{times}$, of sort $\mathtt{Exp}$,
    each with two arguments of sort $\mathtt{Exp}$
+
+The expression $\mathtt{2 + (3 \times \mathit{x})}$
