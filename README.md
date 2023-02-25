@@ -150,8 +150,8 @@ conditions:
    then $\mathcal{o(a_1; \cdots; a_n)} \in \mathcal{A}[\mathcal{X}]_s$.
 
 **Variables are given meaning by substitution.** If
-$\mathcal{a} \in \mathcal{A}[\mathcal{X,x}]_{s'}$, and
-$\mathcal{b} \in \mathcal{A}[\mathcal{X}]_s$, then
-$[\mathcal{b/x}]\mathcal{a} \in \mathcal{A}[\mathcal{X}]_{x'}$ is the result of
+$\mathcal{a} \in \mathcal{A}[\mathcal{X,x}] _{s'}$, and
+$\mathcal{b} \in \mathcal{A}[\mathcal{X}] _s$, then
+$[\mathcal{b/x}]\mathcal{a} \in \mathcal{A}[\mathcal{X}] _{x'}$ is the result of
 substituting $\mathcal{b}$ for every occurrence of $\mathcal{x}$ in
 $\mathcal{a}$.
