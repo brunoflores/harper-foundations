@@ -94,4 +94,4 @@ these operators:
 The expression $\mathtt{2 + (3 \times \mathit{x})}$ would be represented by the
 AST:
 
-$$\mathtt{plus(num[2];times(num[3];\mathit[x]))}$$
+$$\mathtt{plus(num[2];times(num[3];\mathit{x}))}$$
