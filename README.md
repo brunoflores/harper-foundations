@@ -199,3 +199,7 @@ We often write $\vec{x}$ to stand for a finite sequence
 $\mathcal{x_1, \cdots, x_n}$
 of distinct variables and write $\vec{x}.\mathcal{a}$ to mean
 $\mathcal{x_1, \cdots, x_n.a}$.
+
+# E
+
+[A simple expression language named `E`.](./e/)
