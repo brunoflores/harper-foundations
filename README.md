@@ -92,6 +92,17 @@ these operators:
    each with two arguments of sort $\mathtt{Exp}$
 
 The expression $\mathtt{2 + (3 \times \mathit{x})}$ would be represented by the
-AST:
+AST of sort $mathtt{Exp}$, under the assumption that $\mathit{x}$ is also of
+this sort:
 
 $$\mathtt{plus(num[2];times(num[3];\mathit{x}))}$$
+
+#### Structural induction
+
+The tree structure of ASTs provides a very useful principle of reasoning, called
+*structural induction*.
+
+To prove that some property $\mathbb{P}(\mathit{a})$ holds for all ASTs
+$\mathit{a}$ of a given sort, it is enough to consider all the ways in which
+$\mathit{a}$ can be generated and show that the property holds in each case
+under the assumption that it holds for its constituent ASTs (if any).
