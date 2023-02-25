@@ -38,4 +38,4 @@ that are sensitive to the context in which their occur.**
 In the general case, the *only* information required about the context of an
 expression is the type of the variables within whose scope the expression lies.
 
-$$\vec{x} | \Gamma \vdash \mathcal{e} : \mathcal{t}$$
+$$\vec{x}\ |\ \Gamma \vdash \mathcal{e} : \mathcal{t}$$
