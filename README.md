@@ -187,3 +187,7 @@ a reference, or abstract pointer, to its binding**.
 An argument to an operator is called an *abstractor* and has the form,
 
 $$\mathcal{x_1, \cdots, x_k.a}.$$
+
+The sequence of variables $\mathcal{x_1, \cdots, x_k}$ are bound within the ABT
+$\mathcal{a}$. In the form of an ABT, the expression
+$\mathtt{let x be a_1 in a_2}$
