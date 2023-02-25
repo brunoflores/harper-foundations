@@ -137,4 +137,10 @@ $\mathcal{s}$. If $\mathcal{x}$ is fresh for $\mathcal{X}$ and $\mathcal{s}$ is
 a sort, then $\mathcal{X,x}$ is the family of sets of variables obtained by
 adding $\mathcal{x}$ to $\mathcal{X_s}$.
 
-The family $\mathcal{A}[\mathcal{X}] = \\{ \mathcal{A}[\mathcal{X}] _s \\} _\mathcal{s \in S}$
+The family
+$\mathcal{A}[\mathcal{X}] = \\{ \mathcal{A}[\mathcal{X}] _s \\} _\mathcal{s \in S}$
+of ASTs of sort $\mathcal{s}$ is the smallest family satisfying the following
+conditions:
+
+1. A variable of sort $\mathcal{s}$ is an AST of sort $\mathcal{s}$: if
+   $\mathcal{x \in X_s}$, then $\mathcal{x} \in \mathcal{A}[\mathcal{X}]_s$
