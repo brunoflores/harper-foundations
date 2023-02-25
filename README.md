@@ -190,4 +190,4 @@ $$\mathcal{x_1, \cdots, x_k.a}.$$
 
 The sequence of variables $\mathcal{x_1, \cdots, x_k}$ are bound within the ABT
 $\mathcal{a}$. In the form of an ABT, the expression
-$\texttt{let \( \mathcal{x} \) be \( a_1 \) in \( a_2 \)}$
+$\mathtt{let~\mathcal{x}~be~a_1~in~a_2}$
