@@ -136,3 +136,5 @@ $\mathcal{X}$ is understood, if $\mathcal{x \notin X_s}$ for any sort
 $\mathcal{s}$. If $\mathcal{x}$ is fresh for $\mathcal{X}$ and $\mathcal{s}$ is
 a sort, then $\mathcal{X,x}$ is the family of sets of variables obtained by
 adding $\mathcal{x}$ to $\mathcal{X_s}$.
+
+The family $\mathcal{A[X] = \\{ A[X]_s \\} _{s \in S}}$
