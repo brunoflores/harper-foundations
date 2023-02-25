@@ -159,7 +159,7 @@ $\mathcal{a}$.
 ```
 [b/x]a
    ^ ^
-   --^--subject
+   ^-^--subject
      ^
-	 ^--target
+     ^--target
 ```
