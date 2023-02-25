@@ -53,7 +53,7 @@ $$
 \begin{array}{ c c }
 \huge{\frac{}{\Gamma,\ \mathcal{x}\ :\ \mathcal{t}\ \vdash\ \mathcal{x}\ :\ \mathcal{t}}} &
 \\
-\huge{\frac{}{\Gamma\ \vdash\ texttt{str}[s]\ :\ \texttt{str}}} &
+\huge{\frac{}{\Gamma\ \vdash\ \texttt{str}[s]\ :\ \texttt{str}}} &
 \text{Intro} \\
 \end{array}
 $$
