@@ -148,3 +148,10 @@ conditions:
    $(s_1, \cdots, s_n)s$, and if
    $\mathcal{a_1} \in \mathcal{A}[\mathcal{X}] _{s1}, \cdots, \mathcal{a_n} \in \mathcal{A}[\mathcal{X}] _{sn}$,
    then $\mathcal{o(a_1; \cdots; a_n)} \in \mathcal{A}[\mathcal{X}]_s$.
+
+**Variables are given meaning by substitution.** If
+$\mathcal{a} \in \mathcal{A}[\mathcal{X,x}]_{s'}$, and
+$\mathcal{b} \in \mathcal{A}[\mathcal{X}]_s$, then
+$[\mathcal{b/x}]\mathcal{a} \in \mathcal{A}[\mathcal{X}]_{x'}$ is the result of
+substituting $\mathcal{b}$ for every occurrence of $\mathcal{x}$ in
+$\mathcal{a}$.
