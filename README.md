@@ -127,6 +127,6 @@ $\mathit{s_1, \cdots, s_n}$.
 
 Fix a set $\mathcal{S}$ of sorts and an arity-indexed family $\mathcal{O}$ of
 sets of operators of each arity. Let
-$\mathcal{X} = \\{ \mathcal{X}_s \\}_{s \in S}$ be a sort-indexed
+$\mathcal{X} = \\{ \mathcal{X}_s \\}$ be a sort-indexed
 family of disjoint finite sets $\mathcal{X}_s$ of *variables* $\mathcal{x}$
 of sort $\mathcal{s}$.
