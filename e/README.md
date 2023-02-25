@@ -51,7 +51,7 @@ The rules defining the statics of `E` are as follows,
 
 $$
 \begin{array}{ c c }
-\large{\frac{}{\Gamma, \mathcal{x} : \mathcal{t} \vdash \mathcal{x} : \mathcal{t}}} &
+\huge{\frac{}{\Gamma, \mathcal{x} : \mathcal{t} \vdash \mathcal{x} : \mathcal{t}}} &
 \text{Intro} \\
 \frac{}{\Gamma, \mathcal{x} : \mathcal{t} \vdash \mathcal{x} : \mathcal{t}} &
 \text{Intro} \\
