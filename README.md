@@ -120,4 +120,7 @@ which specifies the sort $\mathit{s} \in \mathit{S}$ of an operator taking
 $\mathit{n} \geq 0$ arguments, each of sort $\mathit{s_i} \in \mathit{S}.$
 
 Let $\mathit{O} = \\{ \mathit{O_\alpha} \\}$ be an arity-indexed family of
-disjoint sets of *operators* $\mathit{O_\alpha}$ of arity $\alpha$.
+disjoint sets of *operators* $\mathit{O_\alpha}$ of arity $\alpha$. If
+$\mathit{o}$ is an operator of arity $\mathit{(s_1, \cdots, s_n)s}$, we say that
+$\mathit{o}$ has sort $\mathit{s}$ and has $\mathit{n}$ arguments of sorts
+$\mathit{s_1, \cdots, s_n}$.
