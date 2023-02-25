@@ -203,3 +203,28 @@ $\mathcal{x_1, \cdots, x_n.a}$.
 # E
 
 [A simple expression language named `E`.](./e/)
+
+When defining a language, we shall be primarily concerned with its *abstract
+syntax*, specified by a collection of *operators and their arities*.
+
+The abstract syntax provides a systematic, unambiguous account of the
+hierarchical and binding structure of the language and is considered **the
+official presentation of the language**.
+
+## Syntax chart
+
+It is also useful to specify minimal concrete syntax conventions.
+
+```
+Typ t := num             num                  numbers
+         str             str                  strings
+
+Exp e := x               x                    variable
+         num[n]          n                    numeral
+		 str[s]          "s"                  literal
+		 plus(e1;e2)     e1 + e1              addition
+		 times(e1;e2)    e1 * e2              multiplication
+		 cat(e1;e2)      e1 ^ e2              concatenation
+		 len(e)          |e|                  length
+		 let(e;x.e2)     let x be e1 in e2    definition
+```
