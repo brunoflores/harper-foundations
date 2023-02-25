@@ -228,3 +228,8 @@ Exp e := x               x                    variable
          len(e)          |e|                  length
          let(e;x.e2)     let x be e1 in e2    definition
 ```
+
+This chart defines two sorts. `Typ`, ranged over by `t`, and `Exp`, ranged over
+by `e`. For example, the operator `let` has arity `(Exp, Exp.Exp)Exp`, which
+specifies that it has two arguments of sort `Exp`, and binds a variable of sort
+`Exp` in the second argument.
