@@ -114,7 +114,7 @@ Let $\mathit{S}$ be a finite *set of sorts*.
 
 For a given set $\mathit{S}$ of sorts, an *arity* has the form,
 
-$\mathit{(s_1, \cdots, s_n)s}$
+$$\mathit{(s_1, \cdots, s_n)s}$$
 
 which specifies the sort $\mathit{s} \in \mathit{S}$ of an operator taking
-$\mathit{n} \gte 0$ arguments, each of sort $\mathit{s_i} \in \mathit{S}.$
+$\mathit{n} \geq 0$ arguments, each of sort $\mathit{s_i} \in \mathit{S}.$
