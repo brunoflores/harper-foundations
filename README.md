@@ -191,3 +191,6 @@ $$\mathcal{x_1, \cdots, x_k.a}.$$
 The sequence of variables $\mathcal{x_1, \cdots, x_k}$ are bound within the ABT
 $\mathcal{a}$. In the form of an ABT, the expression
 $\mathtt{let\ \mathcal{x}\ be\ \mathcal{a_1}\ in\ \mathcal{a_2}}$
+has the form $\mathtt{let(\mathcal{a_1};\mathcal{x.a_2})}$, which more clearly
+specifies that the variable $\mathcal{x}$ is bound within $\mathcal{a_2}$, and
+not within $\mathcal{a_1}$.
