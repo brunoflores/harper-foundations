@@ -105,4 +105,5 @@ The tree structure of ASTs provides a very useful principle of reasoning, called
 To prove that some property $\mathit{P(a)}$ holds for all ASTs
 $\mathit{a}$ of a given sort, it is enough to consider all the ways in which
 $\mathit{a}$ can be generated and show that the property holds in each case
-under the assumption that it holds for its constituent ASTs (if any).
+under the assumption that it holds for its constituent ASTs (if any). It
+exhausts all possibilities for the formation of $\mathit{a}$.
