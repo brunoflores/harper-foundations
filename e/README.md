@@ -44,5 +44,5 @@ judgments of the form,
 $$\vec{x}\ |\ \Gamma \vdash \mathcal{e} : \mathcal{t}$$
 
 where $\vec{x}$ is a finite set of variables, and $\Gamma$ is a *typing context*
-consisting of hypotheses of the form $\mathcal{x}\ :\ \mathcal{t}$, one for each
-$\mathcal{x}\ \in\ \vec{x}$.
+consisting of hypotheses of the form $\mathcal{x} : \mathcal{t}$, one for each
+$\mathcal{x} \in \vec{x}$.
