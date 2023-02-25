@@ -107,3 +107,14 @@ $\mathit{a}$ of a given sort, it is enough to consider all the ways in which
 $\mathit{a}$ can be generated and show that the property holds in each case
 under the assumption that it holds for its constituent ASTs (if any). It
 exhausts all possibilities for the formation of $\mathit{a}$.
+
+#### Formalization with Sets
+
+Let $\mathit{S}$ be a finite *set of sorts*.
+
+For a given set $\mathit{S}$ of sorts, an *arity* has the form,
+
+$\mathit{(s_1, \cdots, s_n)s}$
+
+which specifies the sort $\mathit{s} \in \mathit{S}$ of an operator taking
+$\mathit{n} \gte 0$ arguments, each of sort $\mathit{s_i} \in \mathit{S}.$
