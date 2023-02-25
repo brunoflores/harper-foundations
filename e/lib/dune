@@ -1,2 +1,13 @@
+(ocamllex
+ (modules lexer))
+
+(menhir
+ (modules parser)
+ (flags --table --strict))
+
 (library
- (name e))
+ (name e)
+ (modules parser lexer)
+ (libraries menhirLib)
+ (preprocess
+   (pps ppx_deriving.show)))
