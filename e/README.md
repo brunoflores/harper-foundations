@@ -31,3 +31,11 @@ specifies that it has two arguments of sort `Exp`, and binds a variable of sort
 `Exp` in the second argument.
 
 ## Type System
+
+**The role of a type system is to impose constraints on the formation of phrases
+that are sensitive to the context in which their occur.**
+
+In the general case, the *only* information required about the context of an
+expression is the type of the variables within whose scope the expression lies.
+
+$$\vec{x} | \Gamma \vdash \mathcal{e} : \mathcal{t}$$
