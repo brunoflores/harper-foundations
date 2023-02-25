@@ -155,3 +155,11 @@ $\mathcal{b} \in \mathcal{A}[\mathcal{X}] _s$, then
 $[\mathcal{b/x}]\mathcal{a} \in \mathcal{A}[\mathcal{X}] _{x'}$ is the result of
 substituting $\mathcal{b}$ for every occurrence of $\mathcal{x}$ in
 $\mathcal{a}$.
+
+```
+[b/x]a
+   ^ ^
+   --^--subject
+     ^
+	 ^--target
+```
