@@ -165,3 +165,15 @@ $\mathcal{a}$.
 ```
 
 ### Abstract Binding Trees
+
+*Abstract binding trees* enrich ASTs with the means to introduce new variables
+and symbols, called a *binding*, with a specified range of significance, called
+its *scope*.
+
+The **scope** of a binding is an ABT within which the bound identifier can be
+used, either as a placeholder or as the index of some operator.
+
+Different subtrees may introduce identifiers with disjoint scopes.
+
+The crucial principle is that **any use of an identifier should be understood as
+a reference, or abstract pointer, to its binding**.
