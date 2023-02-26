@@ -155,8 +155,8 @@ value, is inductively defined by the following rules:
 
 $$
 \begin{array}{ c }
-\frac{}{\texttt{num}[\mathcal{n}]\ \text\{val}}
+\huge{\frac{}{\texttt{num}[\mathcal{n}]\ \text\{val}}}
 \\\ \\
-\frac{}{\texttt{str}[\mathcal{s}]\ \text{val}}
+\huge{\frac{}{\texttt{str}[\mathcal{s}]\ \text{val}}}
 \end{array}
 $$
