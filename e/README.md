@@ -134,7 +134,7 @@ is inductively defined by the following rules:
 $$
 \begin{array}{c}
 \huge{\frac{}{\mathcal{s} \longmapsto^* \mathcal{s}}}
-//\ //
+\\\ \\
 \huge{
   \frac{\mathcal{s} \longmapsto \mathcal{s'}\ \ \mathcal{s'} \longmapsto^* \mathcal{s''}}
        {\mathcal{s} \longmapsto^* \mathcal{s''}}
