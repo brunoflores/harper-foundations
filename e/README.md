@@ -55,5 +55,11 @@ $$
 \\
 \huge{\frac{}{\Gamma\ \vdash\ \texttt{str}[s]\ :\ \texttt{str}}} &
 \text{Intro} \\
+\huge{\frac{}{\Gamma\ \vdash\ \texttt{num}[n]\ :\ \texttt{num}}} &
+\text{Intro} \\
+\huge{
+  \frac{\Gamma\ \vdash\ e_1\ :\ \texttt{num}\ \ \Gamma\ \vdash\ e_2\ :\ num}
+       {\Gamma\ \vdash\ \texttt{plus}(e_1;e_2)\ :\ \texttt{num}}} &
+\text{Elim} \\
 \end{array}
 $$
