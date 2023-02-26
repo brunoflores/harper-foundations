@@ -190,6 +190,6 @@ with the number of steps in the sequence being its "width" and the derivation
 tree for each step being its "height". For example:
 
 $$
-\mathtt{let} \newline
+\mathtt{let} \\*
 \longmapsto
 $$
