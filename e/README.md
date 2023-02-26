@@ -141,3 +141,22 @@ $$
 }
 \end{array}
 $$
+
+## Structural Dynamics
+
+A *structural dynamics* for the language `E` is given by a transition system:
+
+* States are closed expressions
+* All states are initial
+* The final states are the (closed) values (completed computations)
+
+The judgment $\mathcal{e} \text{val}$, which states that $\mathcal{e}$ is a
+value, is inductively defined by the following rules:
+
+$$
+\begin{array}{ c }
+\frac{}{\texttt{num}[\mathcal{n}]\ \text\{val}}
+\\\ \\
+\frac{}{\texttt{str}[\mathcal{s}]\ \text{val}}
+\end{array}
+$$
