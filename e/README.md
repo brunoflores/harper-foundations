@@ -120,4 +120,4 @@ A *transition system* is specified by the following four forms of judgment:
 A *transition sequence* is a sequence of states
 $\mathcal{s_0}, \cdots, \mathcal{s_n}$ such that $\mathcal{s_0}\ \text{initial}$
 and $\mathcal{s_i}\ \longmapsto\ \mathcal{s_{i+1}}$ for every
-$\mathcal{0 \leq i \less n}$.
+$\mathcal{0 \leq i \textless n}$.
