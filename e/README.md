@@ -150,7 +150,7 @@ A *structural dynamics* for the language `E` is given by a transition system:
 * All states are initial
 * The final states are the (closed) values (completed computations)
 
-The judgment $\mathcal{e} \text{val}$, which states that $\mathcal{e}$ is a
+The judgment $\mathcal{e}\ \text{val}$, which states that $\mathcal{e}$ is a
 value, is inductively defined by the following rules:
 
 $$
