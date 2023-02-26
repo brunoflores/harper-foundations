@@ -126,4 +126,4 @@ $\mathcal{s}$ such that $\mathcal{s_n}\ \longmapsto\ \mathcal{s}$, and it is
 $\mathcal{s}\ \downarrow$ means that there is a complete transition sequence
 starting from $\mathcal{s}$, which is to say that there exists
 $\mathcal{s'}\ \text{final}$ such that
-$\mathcal{s}\ \stackrel{*}{\longmapsto} \mathcal{s'}$.
+$\mathcal{s}\ \longmapsto^* \mathcal{s'}$.
