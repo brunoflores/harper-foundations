@@ -108,4 +108,11 @@ specifies the step-by-step process of executing a program.
 A *transition system* is specified by the following four forms of judgment:
 
 1. $\mathcal{s}\ \text{state}$, asserting that $\mathcal{s}$ is a *state* of the
-   transition system
+   transition system.
+2. $\mathcal{s}\ \text{final}$, where $\mathcal{s}\ \text{state}$, asserting
+   that $\mathcal{s}$ is a *final* state.
+3. $\mathcal{s}\ \text{initial}$, where $\mathcal{s}\ \text{state}$, asserting
+   that $\mathcal{s}$ is an *initial* state.
+4. $\mathcal{s}\ \longmapsto\ \mathcal{s'}$, where $\mathcal{s}\ \text{state}$
+   and $\mathcal{s'}\ \text{state}$, asserting that state $\mathcal{s}$ may
+   transition to state $\mathcal{s'}$.
