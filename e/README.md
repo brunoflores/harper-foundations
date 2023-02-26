@@ -202,3 +202,8 @@ $$
 \longmapsto \mathtt{num[10]}
 \end{array}
 $$
+
+The rules above exemplify the *inversion principle* of language design, which
+states that the elimination forms are *inverse* to the introduction forms of a
+language. The inversion principle is central to ensuring that a programming
+language is properly defined.
