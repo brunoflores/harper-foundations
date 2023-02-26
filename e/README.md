@@ -107,5 +107,5 @@ specifies the step-by-step process of executing a program.
 
 A *transition system* is specified by the following four forms of judgment:
 
-1. $\mathcal{s}\ state$, asserting that $\mathcal{s}$ is a *state* of the
+1. $\mathcal{s}\ \text{state}$, asserting that $\mathcal{s}$ is a *state* of the
    transition system
