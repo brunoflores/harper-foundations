@@ -50,6 +50,7 @@ to say that the variable $\mathcal{x}$ is *fresh* for $\Gamma$.
 The rules defining the statics of `E` are as follows,
 
 $$
+\renewcommand\arraystretch{0.7}
 \begin{array}{ c c }
 \huge{\frac{}{\Gamma,\ \mathcal{x}\ :\ \mathcal{t}\ \vdash\ \mathcal{x}\ :\ \mathcal{t}}} &
 \\
