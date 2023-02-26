@@ -193,6 +193,12 @@ $$
 \begin{array}{l}
 \mathtt{let(plus(num[1];num[2]);\mathcal{x}.plus(plus(\mathcal{x};num[3]);num[4]))}
 \\
-\longmapsto
+\longmapsto \mathtt{let(num[3];\mathcal{x}.plus(plus(\mathcal{x};num[3]);num[4]))}
+\\
+\longmapsto \mathtt{plus(plus(num[3];num[3]);num[4])}
+\\
+\longmapsto \mathtt{plus(num[6];num[4])}
+\\
+\longmapsto \mathtt{num[10]}
 \end{array}
 $$
