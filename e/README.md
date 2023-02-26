@@ -169,6 +169,6 @@ $$
 \huge{
   \frac{\mathcal{n_1}\ +\ \mathcal{n_2}\ =\ \mathcal{n}}
        {\texttt{plus}(\texttt{num}[\mathcal{n_1}];\texttt{num}[\mathcal{n_2}])\ \longmapsto\ \texttt{num}[\mathcal{n}]}
-} & \text\{IT}
+} & \text\{Instr. trans.}
 \end{array}
 $$
