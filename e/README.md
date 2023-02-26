@@ -154,7 +154,7 @@ The judgment $\mathcal{e}\ \text{val}$, which states that $\mathcal{e}$ is a
 value, is inductively defined by the following rules:
 
 $$
-\begin{array}{ c }
+\begin{array}{c}
 \huge{\frac{}{\texttt{num}[\mathcal{n}]\ \text\{val}}}
 \\\ \\
 \huge{\frac{}{\texttt{str}[\mathcal{s}]\ \text{val}}}
@@ -181,4 +181,14 @@ $$
        {\texttt{plus}(\mathcal{e_1};\mathcal{e_2})\ \longmapsto\ \texttt{plus}(\mathcal{e_1};\mathcal{e'_2})}
 } & \text{Search trans.}
 \end{array}
+$$
+
+**(Omitting rules for string concatenation, multiplication and length.)**
+
+A derivation sequence in a structural dynamics has a two-dimensional structure,
+with the number of steps in the sequence being its "width" and the derivation
+tree for each step being its "height". For example:
+
+$$
+\mathtt{let}
 $$
