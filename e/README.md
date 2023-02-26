@@ -123,10 +123,21 @@ and $\mathcal{s_i}\ \longmapsto\ \mathcal{s_{i+1}}$ for every
 $\mathcal{0 \leq i < n}$. A transition sequence is *maximal* iff there is no
 $\mathcal{s}$ such that $\mathcal{s_n}\ \longmapsto\ \mathcal{s}$, and it is
 *complete* iff it is maximal and $\mathcal{s_n}\ \text{final}$. The judgment
-$\mathcal{s}\ \downarrow$ means that there is a complete transition sequence
+$\mathcal{s} \downarrow$ means that there is a complete transition sequence
 starting from $\mathcal{s}$, which is to say that there exists
 $\mathcal{s'}\ \text{final}$ such that
-$\mathcal{s}\ \longmapsto^* \mathcal{s'}$.
+$\mathcal{s} \longmapsto^* \mathcal{s'}$.
 
 The *iteration* of transition judgment $\mathcal{s} \longmapsto^* \mathcal{s'}$
 is inductively defined by the following rules:
+
+$$
+\begin{array}{c}
+\huge{\frac{}{\mathcal{s} \longmapsto^* \mathcal{s}}}
+//\ //
+\huge{
+  \frac{\mathcal{s} \longmapsto \mathcal{s'}\ \ \mathcal{s'} \longmapsto^* \mathcal{s''}}
+       {\mathcal{s} \longmapsto^* \mathcal{s''}}
+}
+\end{array}
+$$
