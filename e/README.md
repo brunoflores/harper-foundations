@@ -176,4 +176,9 @@ $$
        {\texttt{plus}(\mathcal{e_1;e_2})\ \longmapsto\ \texttt{plus}(\mathcal{e'_1;e_2})}
 } & \text{Search trans.}
 \end{array}
+\\\ &\ \\
+\huge{
+  \frac{\mathcal{e_1}\ \text{val}\ \ \mathcal{e_2}\ \longmapsto\ \mathcal{e'_2}}
+       {\texttt{plus}(\mathcal{e_1};\mathcal{e_2})\ \longmapsto\ \texttt{plus}(\mathcal{e_1};\mathcal{e'_2})}
+} & \text{Search trans.}
 $$
