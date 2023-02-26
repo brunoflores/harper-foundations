@@ -169,6 +169,11 @@ $$
 \huge{
   \frac{\mathcal{n_1}\ +\ \mathcal{n_2}\ =\ \mathcal{n}}
        {\texttt{plus}(\texttt{num}[\mathcal{n_1}];\texttt{num}[\mathcal{n_2}])\ \longmapsto\ \texttt{num}[\mathcal{n}]}
-} & \text\{Instr. trans.}
+} & \text{Instr. trans.}
+\\\ &\ \\
+\huge{
+  \frac{\mathcal{e_1}\ \longmapsto\ \mathcal{e'_1}}
+       {\texttt{plus}(\mathcal{e_1;e_2})\ \longmapsto\ \texttt{plus}(\mathcal{e'_1;e_2})}
+} & \text{Search trans.}
 \end{array}
 $$
