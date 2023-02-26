@@ -120,4 +120,6 @@ A *transition system* is specified by the following four forms of judgment:
 A *transition sequence* is a sequence of states
 $\mathcal{s_0}, \cdots, \mathcal{s_n}$ such that $\mathcal{s_0}\ \text{initial}$
 and $\mathcal{s_i}\ \longmapsto\ \mathcal{s_{i+1}}$ for every
-$\mathcal{0 \leq i < n}$.
+$\mathcal{0 \leq i < n}$. A transition sequence is *maximal* iff there is no
+$\mathcal{s}$ such that $\mathcal{s_n}\ \longmapsto\ \mathcal{s}$, and it is
+*complete* iff it is maximal and $\mathcal{s_n}\ \text{final}$.
