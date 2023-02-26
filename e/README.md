@@ -7,7 +7,9 @@ The abstract syntax provides a systematic, unambiguous account of the
 hierarchical and binding structure of the language and is considered **the
 official presentation of the language**.
 
-## Syntax chart
+## Statics
+
+### Syntax chart
 
 It is also useful to specify minimal concrete syntax conventions.
 
@@ -30,7 +32,7 @@ by `e`. For example, the operator `let` has arity `(Exp, Exp.Exp)Exp`, which
 specifies that it has two arguments of sort `Exp`, and binds a variable of sort
 `Exp` in the second argument.
 
-## Type System
+### Type System
 
 **The role of a type system is to impose constraints on the formation of phrases
 that are sensitive to the context in which their occur.**
@@ -85,3 +87,25 @@ $$
 \text{Side condition:}\ \mathcal{x} \notin \mathcal{dom}(\Gamma)
 \end{array}
 $$
+
+The typing rules are *syntax-directed*: there is exactly one rule for each form
+of expression (Lemma 4.2, page 35, "Inversion of Typing").
+
+The *introduction forms* for a type determine the *values*, or *canonical
+forms*, of that type. The *elimination forms* determine how to manipulate the
+values of a type to form a computation of another (possibly the same) type.
+
+## Dynamics
+
+The *dynamics* of a language describes how programs are executed.
+
+The most important way to define the dynamics of a language is by the method of
+*structural dynamics*, which defines a *transition system* that inductively
+specifies the step-by-step process of executing a program.
+
+## Transition Systems
+
+A *transition system* is specified by the following four forms of judgment:
+
+1. $\mathcal{s}\ state$, asserting that $\mathcal{s}$ is a *state* of the
+   transition system
