@@ -63,5 +63,20 @@ $$
   \frac{\Gamma\ \vdash\ e_1\ :\ \texttt{num}\ \ \Gamma\ \vdash\ e_2\ :\ \texttt{num}}
        {\Gamma\ \vdash\ \texttt{plus}(e_1;e_2)\ :\ \texttt{num}}} &
 \text{Elim}
+\\\ &\ \\
+\huge{
+  \frac{\Gamma\ \vdash\ e_1\ :\ \texttt{num}\ \ \Gamma\ \vdash\ e_2\ :\ \texttt{num}}
+       {\Gamma\ \vdash\ \texttt{times}(e_1;e_2)\ :\ \texttt{num}}} &
+\text{Elim}
+\\\ &\ \\
+\huge{
+  \frac{\Gamma\ \vdash\ e_1\ :\ \texttt{str}\ \ \Gamma\ \vdash\ e_2\ :\ \texttt{str}}
+       {\Gamma\ \vdash\ \texttt{cat}(e_1;e_2)\ :\ \texttt{str}}} &
+\text{Elim}
+\\\ &\ \\
+\huge{
+  \frac{\Gamma\ \vdash\ e\ :\ \texttt{str}}
+       {\Gamma\ \vdash\ \texttt{len}(e)\ :\ \texttt{num}}} &
+\text{Elim}
 \end{array}
 $$
