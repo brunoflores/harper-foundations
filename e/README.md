@@ -190,7 +190,7 @@ with the number of steps in the sequence being its "width" and the derivation
 tree for each step being its "height". For example:
 
 $$
-\begin{array}{c}
+\begin{array}{l}
 \mathtt{let(plus(num[1];num[2]);\mathcal{x}.plus(plus(\mathcal{x};num[3]);num[4]))}
 \\
 \longmapsto
