@@ -78,5 +78,10 @@ $$
   \frac{\Gamma\ \vdash\ e\ :\ \texttt{str}}
        {\Gamma\ \vdash\ \texttt{len}(e)\ :\ \texttt{num}}} &
 \text{Elim}
+\\\ &\ \\
+\huge{
+  \frac{\Gamma\ \vdash\ e_1\ :\ t_1\ \ \Gamma,\ x\ :\ t_1\ \vdash\ e_2\ :\ t_2}
+       {\Gamma\ \vdash\ \texttt{let}(e_1;x.e_2)\ :\ t_2}} &
+\text{Side cond.: }\ \mathcal{x} \notin \mathcal{dom}(\Gamma)
 \end{array}
 $$
