@@ -54,12 +54,14 @@ $$
 \huge{\frac{}{\Gamma,\ \mathcal{x}\ :\ \mathcal{t}\ \vdash\ \mathcal{x}\ :\ \mathcal{t}}} &
 \\\ &\ \\
 \huge{\frac{}{\Gamma\ \vdash\ \texttt{str}[s]\ :\ \texttt{str}}} &
-\text{Intro} \\
+\text{Intro}
+\\\ &\ \\
 \huge{\frac{}{\Gamma\ \vdash\ \texttt{num}[n]\ :\ \texttt{num}}} &
-\text{Intro} \\
+\text{Intro}
+\\\ &\ \\
 \huge{
   \frac{\Gamma\ \vdash\ e_1\ :\ \texttt{num}\ \ \Gamma\ \vdash\ e_2\ :\ \texttt{num}}
        {\Gamma\ \vdash\ \texttt{plus}(e_1;e_2)\ :\ \texttt{num}}} &
-\text{Elim} \\
+\text{Elim}
 \end{array}
 $$
