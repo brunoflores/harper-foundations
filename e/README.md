@@ -127,3 +127,6 @@ $\mathcal{s}\ \downarrow$ means that there is a complete transition sequence
 starting from $\mathcal{s}$, which is to say that there exists
 $\mathcal{s'}\ \text{final}$ such that
 $\mathcal{s}\ \longmapsto^* \mathcal{s'}$.
+
+The *iteration* of transition judgment $\mathcal{s} \longmapsto^* \mathcal{s'}$
+is inductively defined by the following rules:
