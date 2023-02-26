@@ -53,7 +53,7 @@ $$
 \renewcommand\arraystretch{0.7}
 \begin{array}{ c c }
 \huge{\frac{}{\Gamma,\ \mathcal{x}\ :\ \mathcal{t}\ \vdash\ \mathcal{x}\ :\ \mathcal{t}}} &
-\\
+\\[1cm]
 \huge{\frac{}{\Gamma\ \vdash\ \texttt{str}[s]\ :\ \texttt{str}}} &
 \text{Intro} \\
 \huge{\frac{}{\Gamma\ \vdash\ \texttt{num}[n]\ :\ \texttt{num}}} &
