@@ -52,7 +52,7 @@ The rules defining the statics of `E` are as follows,
 $$
 \begin{array}{ c c }
 \huge{\frac{}{\Gamma,\ \mathcal{x}\ :\ \mathcal{t}\ \vdash\ \mathcal{x}\ :\ \mathcal{t}}} &
-\\\\
+\\\ &\ \\
 \huge{\frac{}{\Gamma\ \vdash\ \texttt{str}[s]\ :\ \texttt{str}}} &
 \text{Intro} \\
 \huge{\frac{}{\Gamma\ \vdash\ \texttt{num}[n]\ :\ \texttt{num}}} &
