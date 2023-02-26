@@ -3,19 +3,24 @@
 
   let reserved = [
     (* Keywords *)
+    (*
     ("let", fun i -> LET i);
     ("be", fun i -> BE i);
     ("in", fun i -> IN i);
+    *)
 
     (* Symbols *)
+    (*
     ("|", fun i -> VBAR i);
     ("+", fun i -> PLUS i);
     ("*", fun i -> TIMES i);
     ("^", fun i -> HAT i);
+    *)
   ]
 
   (* Support functions *)
 
+  (*
   type buildfun = info -> Parser.token
   let (symboltbl : (string, buildfun) Hashtbl.t) = Hashtbl.create 1024
   let _ = List.iter (fun (str, f) -> Hashtbl.add symbolTable str f) reserved
@@ -50,6 +55,7 @@
     end
 
   let get_str () = Bytes.sub_string (!string_buf) 0 (!string_end)
+  *)
 }
 
 let white = [' ' '\t']+
@@ -62,9 +68,14 @@ rule read = parse
     { read lexbuf }
 
   | ['0'-'9']+
-    { INTV { i = info lexbuf; v = int_of_string (text lexbuf)} }
+    { INTV (int_of_string (Lexing.lexeme lexbuf)) }
 
+  (*
   | ['A'-'Z' 'a'-'z' '_']
   | ['A'-'Z' 'a'-'z' '_' '0'-'9' '\'']*
   | ['|' '+' '*' '^']
     { create_id (info lexbuf) (text lexbuf) }
+  *)
+
+  | eof
+    { EOF }
