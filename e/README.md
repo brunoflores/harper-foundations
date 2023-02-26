@@ -50,10 +50,9 @@ to say that the variable $\mathcal{x}$ is *fresh* for $\Gamma$.
 The rules defining the statics of `E` are as follows,
 
 $$
-\renewcommand\arraystretch{0.7}
 \begin{array}{ c c }
 \huge{\frac{}{\Gamma,\ \mathcal{x}\ :\ \mathcal{t}\ \vdash\ \mathcal{x}\ :\ \mathcal{t}}} &
-\\[1cm]
+\\[10pt]
 \huge{\frac{}{\Gamma\ \vdash\ \texttt{str}[s]\ :\ \texttt{str}}} &
 \text{Intro} \\
 \huge{\frac{}{\Gamma\ \vdash\ \texttt{num}[n]\ :\ \texttt{num}}} &
