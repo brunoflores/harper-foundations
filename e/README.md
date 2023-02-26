@@ -116,3 +116,8 @@ A *transition system* is specified by the following four forms of judgment:
 4. $\mathcal{s}\ \longmapsto\ \mathcal{s'}$, where $\mathcal{s}\ \text{state}$
    and $\mathcal{s'}\ \text{state}$, asserting that state $\mathcal{s}$ may
    transition to state $\mathcal{s'}$.
+
+A *transition sequence* is a sequence of states
+$\mathcal{s_0}, \cdots, \mathcal{s_n}$ such that $\mathcal{s_0}\ \text{initial}$
+and $\mathcal{s_i}\ \longmapsto\ \mathcal{s_{i+1}}$ for every
+$\mathcal{0 \leq i \less n}$.
