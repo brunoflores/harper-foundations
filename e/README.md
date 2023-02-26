@@ -103,7 +103,7 @@ The most important way to define the dynamics of a language is by the method of
 *structural dynamics*, which defines a *transition system* that inductively
 specifies the step-by-step process of executing a program.
 
-## Transition Systems
+### Transition Systems
 
 A *transition system* is specified by the following four forms of judgment:
 
@@ -142,7 +142,7 @@ $$
 \end{array}
 $$
 
-## Structural Dynamics
+### Structural Dynamics
 
 A *structural dynamics* for the language `E` is given by a transition system:
 
@@ -158,5 +158,19 @@ $$
 \huge{\frac{}{\texttt{num}[\mathcal{n}]\ \text\{val}}}
 \\\ \\
 \huge{\frac{}{\texttt{str}[\mathcal{s}]\ \text{val}}}
+\end{array}
+$$
+
+The transition judgment $\mathcal{e} \longmapsto \mathcal{e'}$ between states is
+inductively defined by the following rules:
+
+$$
+\begin{array}{ c c }
+\huge{
+  \frac{\mathcal{n_1} + \mathcal{n_2} = \mathcal{n}}
+       {\texttt{plus}(\texttt{num}[\mathcal{n_1}];\texttt{num}[\mathcal{n_2}])\
+	    \longmapsto\ \texttt{num}[\mathcal{n}]} &
+  \text\{IT}
+}
 \end{array}
 $$
